@@ -1,0 +1,35 @@
+{
+  "name": "simple-ticket-bot",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Discord ticket system with MongoDB persistence",
+  "homepage": "https://github.com/lollopanta/simpleTicketBot#readme",
+  "bugs": {
+    "url": "https://github.com/lollopanta/simpleTicketBot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lollopanta/simpleTicketBot.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": "lollopanta",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ticket",
+    "mongodb"
+  ],
+  "dependencies": {
+    "discord-html-transcripts": "^3.3.0-next-5eed3d",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.7.1",
+    "uuid": "^11.0.3"
+  }
+}
